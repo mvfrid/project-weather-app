@@ -4,7 +4,7 @@
 :root {
     /*Colors:*/
     --switch-button-color:  #757AFF;        /*Remove later, should be set by the gradient*/
-    --container-color:  #faf9f9;   
+    --container-color:  #e0e0e0;    /*  #faf9f9;   */
 
     /*Dimensions:*/
     --top-background-bottom-position: 355px;
@@ -140,10 +140,21 @@ svg {
     margin: 0 0 5px 0;
 }
 
+.local-time {
+    margin: 0;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.description-icon {
+    display: flex;
+    margin-top: -7px;
+}
+
 .mainWrapper .describeText {
     font-size: 16px;
     font-weight: 200;
-    margin: 0px;
+    margin: auto 0 auto 0;
     text-transform: capitalize;
 }
 
@@ -371,9 +382,18 @@ footer a:hover {
     font-size: 18px;
 }
 
+.local-time {
+    font-size: 18px;
+}
+
 #sunriseText,
 #sunsetText {
     font-size: 18px;
 }
+
+body {
+    background-color: #faf9f9;
+}
+
 
 }
